@@ -1,0 +1,308 @@
+/* :root {
+  --primaryBlue: #4ca6bf;
+  --sidebarText: #4d4c4c;
+  --sidebarTextActive: #000000;
+  --sidebarBg: #b2c5ba;
+  --tableContentColor: #6f6674;
+  --tableHeaderFontSize: 9px;
+  --tableDataFontSize: 8px;
+} */
+
+/* Tablat Screen 1024px to 768 px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  * {
+    font-size: small;
+  }
+  /* .search_bar {
+    width: 10%;
+  } */
+  .signinBody {
+    width: 100%;
+    height: 100%;
+  }
+  .signin {
+    width: 70%;
+    margin-top: 40px;
+  }
+  .warehouseSignin {
+    background: lightgray 50% / cover no-repeat;
+    width: 100%;
+  }
+  .input_login {
+    width: 300px;
+  }
+  .bottom_login {
+    position: absolute;
+    transform: translate(-152px, 10px);
+  }
+  .sidebar-bottom-left img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  .sidebar-bottom-left {
+    font-size: 8px;
+  }
+  .sidebar-bottom {
+    margin-top: 100px;
+  }
+  .sidebar-bottom-right {
+    width: 110px;
+  }
+  .sidebar-bottom-right-heading-down {
+    width: 105px;
+    height: 1.688rem;
+    /* margin-right: 0.688rem; */
+    /* text-align: right; */
+  }
+  .sidebar-bottom-right-text {
+    font-size: 8px;
+  }
+  .inputBox {
+    width: 75px !important;
+  }
+  .rack_label h6 {
+    font-size: 10px !important;
+  }
+  .block_label {
+    padding-left: 0px !important;
+  }
+  .block_label h6 {
+    font-size: 10px !important;
+  }
+  .selectBox {
+    width: 75px !important;
+    font-size: 8px !important;
+    font-weight: 600;
+  }
+  .savebtn {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 3px 6px;
+    gap: 5px;
+  }
+  .searchInput {
+    width: 76px;
+  }
+  .sidebar-menus ul {
+    padding-left: 0;
+  }
+  .form_view .checkbox_main {
+    column-gap: 8px;
+  }
+  .table_header h5 {
+    font-size: 9px;
+    font-weight: 800;
+  }
+  .div:where(
+      .checkbox_wrapper,
+      .sr_no,
+      .edit_rack_block,
+      .item_code,
+      .on_off_switch,
+      .edit,
+      .user_Id,
+      .user_type,
+      .rack_no,
+      .category_parameter,
+      .tab_access,
+      .rack_partition,
+      .password,
+      .contact_no,
+      .email,
+      .role_type,
+      .user_name,
+      .location_name,
+      .rack_name,
+      .block_name,
+      .block_in_stock,
+      .rack_in_stock,
+      .serial_stock,
+      .category_stock,
+      .condition_type,
+      .brand_make
+    ) {
+    width: 100%;
+  }
+  .checkbox_wrapper {
+    /* width: 4%; */
+    width: 30px;
+    justify-content: center;
+  }
+  .block_name {
+    width: 10.9%;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .block_in_stock {
+    width: 100px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .rack_in_stock {
+    width: 100px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .serial_stock {
+    width: 100px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .category_stock {
+    width: 100px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .condition_type {
+    width: 15%;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .brand_make {
+    width: 100px;
+    justify-content: center;
+    border-right: none;
+    word-break: break-word;
+  }
+  .edit {
+    /* width: 6%; */
+    width: 53px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .on_off_switch {
+    /* width: 8%; */
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .on_off_switch div input {
+    width: 24px !important;
+    height: 10px !important;
+    justify-content: center;
+  }
+  .sr_no {
+    /* width: 6%; */
+    width: 48px;
+    word-break: break-word;
+    justify-content: center;
+  }
+  .brand_name,
+  .category {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    width: 159px;
+    word-break: break-word;
+    padding: 3px 5px;
+  }
+  .item_code {
+    width: 70px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .category_parameter {
+    width: 22%;
+    word-break: break-word;
+    /* justify-content: center; */
+  }
+  .toggle_Switch {
+    width: 30px !important;
+  }
+  .form-check-input:checked {
+    background-color: #bfbfbf !important;
+    border-color: #bfbfbf !important;
+  }
+
+  .user_type {
+    /* width: 14%; */
+    width: 200px;
+    word-break: break-word;
+  }
+  .rack_no {
+    width: 50px;
+    word-break: break-word;
+  }
+
+  .user_Id {
+    /* width: 10%; */
+    width: 80px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .password {
+    /* width: 12%; */
+    width: 180px;
+  }
+  .password_icon {
+    left: 80%;
+    width: 8px;
+    height: 8px;
+  }
+  .password input {
+    width: 80px;
+    font-size: 9px;
+  }
+
+  .contact_no {
+    /* width: 10%; */
+    width: 150px;
+  }
+  .email {
+    /* width: 24%; */
+    width: 200px;
+    word-break: break-word;
+  }
+  .location_name {
+    width: 50px;
+    padding-left: 15px;
+    word-break: break-word;
+  }
+  .rack_name {
+    width: 50px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .block_name {
+    width: 50px;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .role_type {
+    /* width: 15%; */
+    width: 160px;
+    word-break: break-word;
+  }
+  .user_name {
+    /* width: 18%; */
+    width: 138px;
+    word-break: break-word;
+  }
+  .tab_access {
+    width: 60%;
+    border-right: none;
+    word-break: break-word;
+  }
+  .rack_partition {
+    width: 150;
+    /* justify-content: center; */
+    word-break: break-word;
+  }
+  .stock_input {
+    align-items: start;
+  }
+  .stock_row {
+    padding-left: 0px !important;
+  }
+  .stock_input h6 {
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .bottom_login {
+    position: absolute;
+    transform: translate(-61px, 10px);
+  }
+}

@@ -1,0 +1,35 @@
+/* Swal fire */
+
+/* Customize icon font background color */
+.swal2-icon-background {
+  background-color: #6e7881 !important;
+}
+.swal2-popup {
+  background-color: #f0f0f0 !important;
+}
+.swal2-confirm {
+  background-color: #b2c5ba !important;
+  /* color: rgb(35, 31, 31) !important; */
+  font-weight: 700;
+}
+.swal2-cancel {
+  background-color: #6e7881 !important;
+}
+
+/* font in swal fire */
+div:where(.swal2-container) .swal2-html-container {
+  font-weight: 600 !important;
+}
+/* Customize button size */
+.swal2-confirm {
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+}
+
+div:where(.swal2-icon).swal2-warning {
+  border-color: #6b7670 !important;
+  color: #6b7670 !important;
+}
+/* .swal2-confirm:active {
+  outline: 2px solid #ff0000 !important;
+} */
